@@ -1,0 +1,3297 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:64a144a4-b93b-4999-86d0-3d82caf03262",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-06-14T19:45:32Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.13.5"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "55332328-41b1-4f27-998a-bd1f8fa3662a",
+      "author" : "platform",
+      "name" : "qiasymphony-connect\\qiasymphony-connect-service-tool",
+      "version" : "1"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "72af319b-5f69-4f6f-b9b9-06943246feef",
+      "name" : "acl",
+      "version" : "2.3.2",
+      "description" : "ACL allows you to provide different levels of access to files and folders for different users.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later & GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:acl:2.3.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/acl@2.3.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "66f6ab00-1899-473c-9e28-4d14d2b37092",
+      "name" : "adwaita-icon-theme",
+      "version" : "45.0",
+      "description" : "The Adwaita icon theme is the default icon theme of the GNOME desktop This package package contains an icon theme for Gtk+ 3 applications.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-3.0-only | CC-BY-SA-3.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:adwaita-icon-theme:45.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/adwaita-icon-theme@45.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "31191084-2644-47d8-a14d-20475cef0670",
+      "name" : "at-spi2-core",
+      "version" : "2.50.1",
+      "description" : "It provides a Service Provider Interface for the Assistive Technologies available on the GNOME platform and a library against which applications can be linked.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:at-spi2-core:2.50.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/at-spi2-core@2.50.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "84e884f1-b5da-4002-b7fa-ba687975e2b6",
+      "name" : "attr",
+      "version" : "2.5.1",
+      "description" : "Implement the ability for a user to attach name:value pairs to objects within the XFS filesystem.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later & GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:attr:2.5.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/attr@2.5.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "05995f29-2e7e-4d50-93ad-77bf0c69d53d",
+      "name" : "base-files",
+      "version" : "3.0.14",
+      "description" : "The base-files package creates the basic system directory structure and provides a small set of key configuration files for the system.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:base-files:3.0.14:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/base-files@3.0.14"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3df84229-84e8-4f8a-b4d8-1ce5c90cf87a",
+      "name" : "base-passwd",
+      "version" : "3.6.3",
+      "description" : "The master copies of the user database files (/etc/passwd and /etc/group). The update-passwd tool is also provided to keep the system databases synchronized with these master files.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:base-passwd:3.6.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/base-passwd@3.6.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f4b120bc-e3b8-4fc5-a4a3-11040cb1ab4c",
+      "name" : "bash",
+      "version" : "5.2.21",
+      "description" : "Bash is the GNU Project's Bourne Again SHell, a complete implementation of the IEEE POSIX and Open Group shell specification with interactive command line editing, job control on architectures that support it, csh-like features such as history substitution and brace expansion, and a slew of other features.",
+      "licenses" : [
+        {
+          "expression" : "GPL-3.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:bash:5.2.21:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/bash@5.2.21"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c6884e70-53cb-4e07-be01-49e247d137cf",
+      "group" : "boost",
+      "name" : "boost",
+      "version" : "1.84.0",
+      "description" : "Provides free peer-reviewed portable C++ source libraries. The emphasis is on libraries which work well with the C++ Standard Library. One goal is to establish 'existing practice' and provide reference implementations so that the Boost libraries are suitable for eventual standardization. Some of the libraries have already been proposed for inclusion in the C++ Standards Committee's upcoming C++ Standard Library Technical Report.",
+      "licenses" : [
+        {
+          "expression" : "BSL-1.0 & MIT & Python-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:boost:boost:1.84.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/boost/boost@1.84.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c4098460-cfd1-41dd-93b2-3f62aa716d73",
+      "name" : "brotli",
+      "version" : "1.1.0",
+      "description" : "Brotli is a generic-purpose lossless compression algorithm that it is similar in speed to deflate but offers more dense compression.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:brotli:1.1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/brotli@1.1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9bbf1c0b-e468-4802-9008-d6175397223c",
+      "name" : "busybox",
+      "version" : "1.36.1",
+      "description" : "BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only & bzip2-1.0.4"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:busybox:1.36.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/busybox@1.36.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "276dc6e1-75a2-439b-a37e-828e21c2bc7f",
+      "name" : "but",
+      "version" : "v1.2.2",
+      "description" : "Basic Utilities and Tools",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:but:v1.2.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/but@v1.2.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "60c56fb2-2573-4520-ba2e-324032027a72",
+      "name" : "bzip2",
+      "version" : "1.0.8",
+      "description" : "bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.",
+      "licenses" : [
+        {
+          "expression" : "bzip2-1.0.6 & GPL-3.0-or-later & Apache-2.0 & MS-PL & BSD-3-Clause & Zlib"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:bzip2:1.0.8:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/bzip2@1.0.8"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e7fbf6ac-6850-4a90-9bcd-323a7991fd83",
+      "name" : "ca-certificates",
+      "version" : "20211016",
+      "description" : "This package includes PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections. This derived from Debian's CA Certificates.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later & MPL-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:ca-certificates:20211016:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/ca-certificates@20211016"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "81397df0-0c7f-410b-8dce-16f42ad716ca",
+      "name" : "cairo",
+      "version" : "1.18.0",
+      "description" : "Cairo is a multi-platform library providing anti-aliased vector-based rendering for multiple target backends. Paths consist of line segments and cubic splines and can be rendered at any width with various join and cap styles. All colors may be specified with optional translucence (opacity/alpha) and combined using the extended Porter/Duff compositing algebra as found in the X Render Extension.",
+      "licenses" : [
+        {
+          "expression" : "(MPL-1.1 | LGPL-2.1-only) & GPL-3.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:cairo:1.18.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/cairo@1.18.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9161aa00-81c1-4e13-b6d8-bcadbe590ddf",
+      "name" : "c-ares",
+      "version" : "1.27.0",
+      "description" : "c-ares is a C library that resolves names asynchronously..",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:c-ares:1.27.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/c-ares@1.27.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "19b82c55-abd6-44f6-b324-a6cc1b2468c9",
+      "group" : "python",
+      "name" : "cffi",
+      "version" : "1.16.0",
+      "description" : "Foreign Function Interface for Python calling C code.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:cffi:1.16.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/cffi@1.16.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "eb6cbe93-03c5-4d0c-aae9-267bb7d22ef8",
+      "group" : "google",
+      "name" : "chrome",
+      "version" : "129.0.6668.100",
+      "description" : "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause & LGPL-2.0-or-later & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:google:chrome:129.0.6668.100:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/google/chrome@129.0.6668.100"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e9e7da73-f21e-427c-8e05-27bdc30adb17",
+      "group" : "chromium",
+      "name" : "chromium",
+      "version" : "129.0.6668.100",
+      "description" : "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause & LGPL-2.0-or-later & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:chromium:chromium:129.0.6668.100:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/chromium/chromium@129.0.6668.100"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "68f56c17-427f-4d5d-af4d-9e0fd2399b49",
+      "name" : "chromium-hardening-policies",
+      "version" : "1.0",
+      "description" : "Installs json file with policies for chromium used as a kiosk app",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:chromium-hardening-policies:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/chromium-hardening-policies@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7aa7201e-dbe8-41d8-a9aa-ffe402b12303",
+      "name" : "cpython",
+      "version" : "3.12.11",
+      "description" : "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+      "licenses" : [
+        {
+          "expression" : "PSF-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:cpython:3.12.11:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/cpython@3.12.11"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6ba17d3a-6b3b-42cb-917e-cba7f973706d",
+      "name" : "cryptopp",
+      "version" : "8.6.0",
+      "description" : "A free C++ class library of cryptographic schemes.",
+      "licenses" : [
+        {
+          "expression" : "BSL-1.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:cryptopp:8.6.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/cryptopp@8.6.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a26119b2-cecf-4295-9632-34d05867ce07",
+      "group" : "haxx",
+      "name" : "curl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:haxx:curl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/haxx/curl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c9ec5ca6-81ad-4b6d-adfd-d8a8692362de",
+      "group" : "daniel_stenberg",
+      "name" : "curl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:daniel_stenberg:curl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/daniel_stenberg/curl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "042d77ce-3792-4973-824f-6fe270241943",
+      "group" : "curl",
+      "name" : "curl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:curl:curl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/curl/curl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9573be52-d043-4793-bfd4-37bf4abaaeea",
+      "group" : "freedesktop",
+      "name" : "dbus",
+      "version" : "1.14.10",
+      "description" : "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\\"single instance\\\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+      "licenses" : [
+        {
+          "expression" : "AFL-2.1 | GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:freedesktop:dbus:1.14.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/freedesktop/dbus@1.14.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c5142c5b-82b1-4483-9244-e6c57faf1878",
+      "group" : "d-bus_project",
+      "name" : "d-bus",
+      "version" : "1.14.10",
+      "description" : "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\\"single instance\\\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+      "licenses" : [
+        {
+          "expression" : "AFL-2.1 | GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:d-bus_project:d-bus:1.14.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/d-bus_project/d-bus@1.14.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c07689c6-d9f6-4e3d-9eba-71136a184b54",
+      "name" : "desktop-file-utils",
+      "version" : "0.27",
+      "description" : "desktop-file-utils contains a few command line utilities for working with desktop entries",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:desktop-file-utils:0.27:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/desktop-file-utils@0.27"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f84d6a07-a0ac-481a-87db-fc0acd79d3c1",
+      "name" : "dhcpcd",
+      "version" : "10.0.6",
+      "description" : "dhcpcd runs on your machine and silently configures your computer to work on the attached networks without trouble and mostly without configuration.",
+      "licenses" : [
+        {
+          "expression" : "BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:dhcpcd:10.0.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/dhcpcd@10.0.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "68b0599f-4d12-4148-9091-ed768d517388",
+      "name" : "dosfstools",
+      "version" : "4.2",
+      "description" : "DOS FAT Filesystem Utilities.",
+      "licenses" : [
+        {
+          "expression" : "GPL-3.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:dosfstools:4.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/dosfstools@4.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2965d381-5fdd-46e8-93d3-81bd0a64a3ef",
+      "name" : "dropbear_ssh",
+      "version" : "2022.83",
+      "description" : "Installs a custom banner for dropbear",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:dropbear_ssh:2022.83:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/dropbear_ssh@2022.83"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "68b6a459-dc13-4b53-8c64-9409461b481f",
+      "name" : "e2fsprogs",
+      "version" : "1.47.0",
+      "description" : "The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:e2fsprogs:1.47.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/e2fsprogs@1.47.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "146f7aec-9cc5-4f9a-a5c5-65074cb01a5c",
+      "name" : "expat",
+      "version" : "2.6.4",
+      "description" : "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:expat:2.6.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/expat@2.6.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "95c0726d-d623-49a8-aeb2-27557280c005",
+      "name" : "firmware-imx",
+      "version" : "8.26",
+      "description" : "Freescale i.MX firmware such as for the VPU",
+      "licenses" : [
+        {
+          "expression" : "Proprietary"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:firmware-imx:8.26:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/firmware-imx@8.26"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b1e56364-0c12-42db-917f-563e22ce5c77",
+      "name" : "flac",
+      "version" : "1.4.3",
+      "description" : "FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.",
+      "licenses" : [
+        {
+          "expression" : "GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:flac:1.4.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/flac@1.4.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d3f74f8b-828d-4eab-9ec9-cb8f911ac4c3",
+      "name" : "fontconfig",
+      "version" : "2.15.0",
+      "description" : "Fontconfig is a font configuration and customization library, which does not depend on the X Window System. It is designed to locate fonts within the system and select them according to requirements specified by applications. Fontconfig is not a rasterization library, nor does it impose a particular rasterization library on the application. The X-specific library 'Xft' uses fontconfig along with freetype to specify and rasterize fonts.",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT & PD"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:fontconfig:2.15.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/fontconfig@2.15.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ab4785fa-4c6c-4226-a015-513af3099b50",
+      "name" : "freetype",
+      "version" : "2.13.2",
+      "description" : "FreeType is a software font engine that is designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images). It can be used in graphics libraries, display servers, font conversion tools, text image generation tools, and many other products as well.",
+      "licenses" : [
+        {
+          "expression" : "(FTL | GPL-2.0-or-later) & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:freetype:2.13.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/freetype@2.13.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "93cdf8e6-4ffd-4131-bf37-f6b111930aa1",
+      "name" : "fribidi",
+      "version" : "1.0.14",
+      "description" : "It provides utility functions to aid in the development of interactive editors and widgets that implement BiDi functionality. The BiDi algorithm is a prerequisite for supporting right-to-left scripts such as Hebrew, Arabic, Syriac, and Thaana.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:fribidi:1.0.14:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/fribidi@1.0.14"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f2e69171-f748-4e40-843a-a04ad6d6a630",
+      "name" : "gcc",
+      "version" : "13.4.0",
+      "description" : "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
+      "licenses" : [
+        {
+          "expression" : "GPL-3.0-with-GCC-exception & GPL-3.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:gcc:13.4.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/gcc@13.4.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e53fb7f5-3712-4f61-8ab2-cf0058d75ac0",
+      "name" : "gdbm",
+      "version" : "1.23",
+      "description" : "Library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.",
+      "licenses" : [
+        {
+          "expression" : "GPL-3.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:gdbm:1.23:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/gdbm@1.23"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "391c3807-3403-4a42-ad44-9721f2edfe43",
+      "name" : "gdk-pixbuf",
+      "version" : "2.42.12",
+      "description" : "The GDK Pixbuf library provides: Image loading and saving facilities, fast scaling and compositing of pixbufs and Simple animation loading (ie. animated GIFs)",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:gdk-pixbuf:2.42.12:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/gdk-pixbuf@2.42.12"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "34fadae5-cec4-43e4-b688-0f4b7f0ee80e",
+      "name" : "glib",
+      "version" : "2.78.6",
+      "description" : "GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later & BSD-3-Clause & PD"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:glib:2.78.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/glib@2.78.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3b4943d5-9464-4603-be93-d09418af822f",
+      "name" : "glibc",
+      "version" : "2.39",
+      "description" : "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:glibc:2.39:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/glibc@2.39"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6f335f43-eac7-46cd-a393-6b80f8f806f9",
+      "name" : "gnu_fribidi",
+      "version" : "1.0.14",
+      "description" : "It provides utility functions to aid in the development of interactive editors and widgets that implement BiDi functionality. The BiDi algorithm is a prerequisite for supporting right-to-left scripts such as Hebrew, Arabic, Syriac, and Thaana.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:gnu_fribidi:1.0.14:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/gnu_fribidi@1.0.14"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "301841bd-c2e7-4c96-8d53-d500af9780b4",
+      "group" : "python",
+      "name" : "grpcio",
+      "version" : "1.62.0",
+      "description" : "Google gRPC",
+      "licenses" : [
+        {
+          "expression" : "Apache-2.0 & BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:grpcio:1.62.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/grpcio@1.62.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8c1ff374-8265-4011-9b2f-ee68a7abcf9e",
+      "group" : "gnome",
+      "name" : "gtk",
+      "version" : "3.24.41",
+      "description" : "GTK+ is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK+ is suitable for projects ranging from small one-off projects to complete application suites.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.0-only & LGPL-2.0-or-later & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:gnome:gtk:3.24.41:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/gnome/gtk@3.24.41"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "eebd35d6-f729-43cb-a23b-97267af2bd97",
+      "name" : "harfbuzz",
+      "version" : "8.3.0",
+      "description" : "HarfBuzz is an OpenType text shaping engine.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:harfbuzz:8.3.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/harfbuzz@8.3.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cad86279-1f4a-4f84-89ba-00e480dd884c",
+      "name" : "hicolor-icon-theme",
+      "version" : "0.17",
+      "description" : "The hicolor-icon-theme package contains a default fallback theme for implementations of the icon theme specification.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:hicolor-icon-theme:0.17:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/hicolor-icon-theme@0.17"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ecab4e9e-f571-48cc-8f40-beebce8cd024",
+      "name" : "imx-dpu-g2d",
+      "version" : "2.2.2",
+      "description" : "G2D library using i.MX DPU",
+      "licenses" : [
+        {
+          "expression" : "Proprietary"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:imx-dpu-g2d:2.2.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/imx-dpu-g2d@2.2.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "179d9cc3-c1d1-4c8b-bfd7-98db5170dec9",
+      "name" : "imx-gpu-viv",
+      "version" : "6.4.11.p2.10-aarch64",
+      "description" : "GPU driver and apps for i.MX",
+      "licenses" : [
+        {
+          "expression" : "Proprietary"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:imx-gpu-viv:6.4.11.p2.10-aarch64:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/imx-gpu-viv@6.4.11.p2.10-aarch64"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e00408d9-8c04-47b0-bbd6-736074d125ad",
+      "name" : "international_components_for_unicode",
+      "version" : "74-2",
+      "description" : "The International Component for Unicode (ICU) is a mature, portable set of C/C++ and Java libraries for Unicode support, software internationalization (I18N) and globalization (G11N), giving applications the same results on all platforms.",
+      "licenses" : [
+        {
+          "expression" : "ICU"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:international_components_for_unicode:74-2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/international_components_for_unicode@74-2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c35a3901-8ba4-4c9b-9881-3c5ad87bd5df",
+      "name" : "jinja",
+      "version" : "3.1.6",
+      "description" : "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python..",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:jinja:3.1.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/jinja@3.1.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "88cb7850-d2df-47fa-bd80-5d86cb6e10b6",
+      "name" : "jinja2",
+      "version" : "3.1.6",
+      "description" : "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python..",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:jinja2:3.1.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/jinja2@3.1.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e70330f6-8487-4f2e-aac4-c7e5356dffe4",
+      "name" : "kbd",
+      "version" : "2.6.4",
+      "description" : "The kbd project contains tools for managing Linux console (Linux console, virtual terminals, keyboard, etc.) – mainly, what they do is loading console fonts and keyboard maps.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later & LGPL-2.0-or-later & GPL-3.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:kbd:2.6.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/kbd@2.6.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6e03f177-d363-446f-b0da-c59f4bc3b277",
+      "name" : "kernel-module-imx-gpu-viv",
+      "version" : "6.4.11.p2.4",
+      "description" : "Builds the Vivante GPU kernel driver as a loadable kernel module, allowing flexibility to use a newer graphics release with an older kernel.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:kernel-module-imx-gpu-viv:6.4.11.p2.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/kernel-module-imx-gpu-viv@6.4.11.p2.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b688d548-9a84-4a63-92b2-400c8b7ffaa6",
+      "name" : "kmod",
+      "version" : "31",
+      "description" : "kmod is a set of tools to handle common tasks with Linux kernel modules like insert, remove, list, check properties, resolve dependencies and aliases.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:kmod:31:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/kmod@31"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "25ea65ad-74a6-4d39-9693-02f89dc92dc4",
+      "name" : "libcap",
+      "version" : "2.69",
+      "description" : "A library providing the API to access POSIX capabilities. These allow giving various kinds of specific privileges to individual users, without giving them full root permissions.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause | GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libcap:2.69:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libcap@2.69"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e59c454d-7aed-4fb3-81e9-f9018afa65ad",
+      "group" : "haxx",
+      "name" : "libcurl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:haxx:libcurl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/haxx/libcurl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9e474431-71d4-411a-b751-c3482028b2b1",
+      "group" : "libcurl",
+      "name" : "libcurl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:libcurl:libcurl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libcurl/libcurl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "626cdd5d-e8c2-4042-b696-15da54943474",
+      "group" : "curl",
+      "name" : "libcurl",
+      "version" : "8.7.1",
+      "description" : "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
+      "licenses" : [
+        {
+          "expression" : "curl"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:curl:libcurl:8.7.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/curl/libcurl@8.7.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a50acb63-e799-41b0-8155-3078355fdee6",
+      "name" : "libcxx",
+      "version" : "18.1.6",
+      "description" : "libc++ is a new implementation of the C++ standard library, targeting C++11",
+      "licenses" : [
+        {
+          "expression" : "Apache-2.0-with-LLVM-exception"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libcxx:18.1.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libcxx@18.1.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a407c0d2-c8d3-4c73-a93c-9539dbb97b6e",
+      "group" : "freedesktop",
+      "name" : "libdbus",
+      "version" : "1.14.10",
+      "description" : "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\\"single instance\\\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+      "licenses" : [
+        {
+          "expression" : "AFL-2.1 | GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:freedesktop:libdbus:1.14.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/freedesktop/libdbus@1.14.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ee86dab2-e76c-422c-b617-ebf60ae32065",
+      "name" : "libdrm",
+      "version" : "2.4.116.imx",
+      "description" : "The runtime library for accessing the kernel DRM services. DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI). DRI is required for many hardware accelerated OpenGL drivers.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libdrm:2.4.116.imx:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libdrm@2.4.116.imx"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "797ae1f7-8aa3-4ff4-9913-44a33c0e6f8c",
+      "name" : "libedit",
+      "version" : "20230828-3.1",
+      "description" : "Command line editor library providing generic line editing, history, and tokenization functions",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libedit:20230828-3.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libedit@20230828-3.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ce6df0c5-9be5-4380-9918-5d2078c6be7b",
+      "name" : "libepoxy",
+      "version" : "1.5.10",
+      "description" : "It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(), eglGetProcAddress(), etc. from the app developer, with very little knowledge needed on their part. They get to read GL specs and write code using undecorated function names like glCompileShader().",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libepoxy:1.5.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libepoxy@1.5.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "31c8dc4b-5503-43e2-9951-5d9f2d156266",
+      "name" : "liberation-fonts",
+      "version" : "2.1.5",
+      "description" : "The Liberation(tm) Fonts is a font family originally created by Ascender(c) which aims at metric compatibility with Arial, Times New Roman, Courier New.",
+      "licenses" : [
+        {
+          "expression" : "OFL-1.1"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:liberation-fonts:2.1.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/liberation-fonts@2.1.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1fb806df-5728-4bc1-a7b8-5ad404fe2694",
+      "name" : "libevdev",
+      "version" : "1.13.1",
+      "description" : "A library for handling evdev kernel devices. It abstracts the evdev ioctls through type-safe interfaces and provides functions to change the appearance of the device.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libevdev:1.13.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libevdev@1.13.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5e88315a-9543-4c95-8bc9-189833fdbfd3",
+      "name" : "libexpat",
+      "version" : "2.6.4",
+      "description" : "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libexpat:2.6.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libexpat@2.6.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2c850e82-a1b3-4ebc-bc92-7d25d861990d",
+      "name" : "libffi",
+      "version" : "3.4.6",
+      "description" : "The `libffi' library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run time. FFI stands for Foreign Function Interface. A foreign function interface is the popular name for the interface that allows code written in one language to call code written in another language. The `libffi' library really only provides the lowest, machine dependent layer of a fully featured foreign function interface. A layer must exist above `libffi' that handles type conversions for values passed between the two languages.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libffi:3.4.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libffi@3.4.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9da271a7-8714-42c7-9758-5c5fc3e5b639",
+      "name" : "libflac",
+      "version" : "1.4.3",
+      "description" : "FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.",
+      "licenses" : [
+        {
+          "expression" : "GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libflac:1.4.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libflac@1.4.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "81d63d8a-c181-49f4-bb26-99cf07ee64f3",
+      "name" : "libfontenc",
+      "version" : "1.1.7",
+      "description" : "libfontenc is a library which helps font libraries portably determine and deal with different encodings of fonts.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libfontenc:1.1.7:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libfontenc@1.1.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e5868a0f-7bb7-4a76-8e20-27470c549629",
+      "name" : "libgudev",
+      "version" : "238",
+      "description" : "This library makes it much simpler to use libudev from programs already using GObject. It also makes it possible to easily use libudev from other programming languages, such as Javascript, because of GObject introspection support.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libgudev:238:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libgudev@238"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "952c08dc-2928-470f-baf5-8ce3871de821",
+      "name" : "libidn2",
+      "version" : "2.3.7",
+      "description" : "Implementation of the Stringprep, Punycode and IDNA specifications defined by the IETF Internationalized Domain Names (IDN) working group.",
+      "licenses" : [
+        {
+          "expression" : "(GPL-2.0-or-later | LGPL-3.0-only) & GPL-3.0-or-later & Unicode-DFS-2016"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libidn2:2.3.7:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libidn2@2.3.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "97598738-91f7-405c-8ee7-5dc6536a9761",
+      "name" : "libinput",
+      "version" : "1.25.0",
+      "description" : "libinput is a library to handle input devices in Wayland compositors and to provide a generic X.Org input driver. It provides device detection, device handling, input device event processing and abstraction so minimize the amount of custom input code compositors need to provide the common set of functionality that users expect.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libinput:1.25.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libinput@1.25.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8c814052-1632-436e-b976-051951ffafb4",
+      "name" : "libjpeg-turbo",
+      "version" : "3.0.1",
+      "description" : "libjpeg-turbo is a derivative of libjpeg that uses SIMD instructions (MMX, SSE2, NEON) to accelerate baseline JPEG compression and decompression",
+      "licenses" : [
+        {
+          "expression" : "IJG & BSD-3-Clause & Zlib"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libjpeg-turbo:3.0.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libjpeg-turbo@3.0.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5b117b11-cd1b-4591-9b6f-2dc6a41fa946",
+      "name" : "libnsl2",
+      "version" : "2.0.1",
+      "description" : "This library contains the public client interface for NIS(YP) and NIS+ it was part of glibc and now is standalone packages. it also supports IPv6",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libnsl2:2.0.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libnsl2@2.0.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6255e402-f9cc-46a5-8bd1-3c18b1b39a4a",
+      "name" : "libogg",
+      "version" : "1.3.5",
+      "description" : "libogg is the bitstream and framing library for the Ogg project. It provides functions which are necessary to codec libraries like libvorbis.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libogg:1.3.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libogg@1.3.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e2797fdc-4075-48df-9aeb-e7d6bdbd0d7d",
+      "name" : "libpng",
+      "version" : "1.6.42",
+      "description" : "An open source project to develop and maintain the reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files.",
+      "licenses" : [
+        {
+          "expression" : "Libpng"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libpng:1.6.42:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libpng@1.6.42"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c5a130d0-73fd-401d-a94a-bcf28e86cb91",
+      "name" : "libseccomp",
+      "version" : "2.5.5",
+      "description" : "The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism: seccomp.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libseccomp:2.5.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libseccomp@2.5.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "10ea11c0-0c77-4516-818b-0f60e8debc15",
+      "name" : "libtirpc",
+      "version" : "1.3.4",
+      "description" : "Libtirpc is a port of Suns Transport-Independent RPC library to Linux",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libtirpc:1.3.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libtirpc@1.3.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "003ce8be-5545-4501-a02e-8566a704f9f3",
+      "name" : "libunistring",
+      "version" : "1.2",
+      "description" : "Text files are nowadays usually encoded in Unicode, and may consist of very different scripts from Latin letters to Chinese Hanzi with many kinds of special characters accents, right-to-left writing marks, hyphens, Roman numbers, and much more. But the POSIX platform APIs for text do not contain adequate functions for dealing with particular properties of many Unicode characters. In fact, the POSIX APIs for text have several assumptions at their base which don't hold for Unicode text. This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard. This package contains documentation.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-3.0-or-later | GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libunistring:1.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libunistring@1.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "70bf18a5-6d2c-426e-acd8-6c39b95fdaa5",
+      "name" : "libusb",
+      "version" : "1.0.27",
+      "description" : "A cross-platform library to access USB devices from Linux, macOS, Windows, OpenBSD/NetBSD, Haiku and Solaris userspace.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libusb:1.0.27:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libusb@1.0.27"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b0e2bc3a-631b-4e8c-bbc2-0b0a9369a282",
+      "name" : "libx11",
+      "version" : "1.8.9",
+      "description" : "This package provides a client interface to the X Window System, otherwise known as 'Xlib'. It provides a complete API for the basic functions of the window system.",
+      "licenses" : [
+        {
+          "expression" : "MIT & BSD-1-Clause & HPND & HPND-sell-variant & ISC"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libx11:1.8.9:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libx11@1.8.9"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1ea0ac4a-4d56-457a-8dbd-2aad75f95a05",
+      "name" : "libxau",
+      "version" : "1.0.11",
+      "description" : "libxau provides the main interfaces to the X11 authorisation handling, which controls authorisation for X connections, both client-side and server-side.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxau:1.0.11:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxau@1.0.11"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e4a4adc2-0bb6-4569-8e0e-2ec7836b8f8c",
+      "name" : "libxcb",
+      "version" : "1.16",
+      "description" : "The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxcb:1.16:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxcb@1.16"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ba914ef5-9984-4e62-bc50-32155fb20163",
+      "name" : "libxcomposite",
+      "version" : "0.4.6",
+      "description" : "The composite extension provides three related mechanisms: per-hierarchy storage, automatic shadow update, and external parent. In per-hierarchy storage, the rendering of an entire hierarchy of windows is redirected to off-screen storage. In automatic shadow update, when a hierarchy is rendered off-screen, the X server provides an automatic mechanism for presenting those contents within the parent window. In external parent, a mechanism for providing redirection of compositing transformations through a client.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxcomposite:0.4.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxcomposite@0.4.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6c3182f4-771c-43ef-90df-6f3b0817f465",
+      "name" : "libxcrypt",
+      "version" : "4.4.36",
+      "description" : "Forked code from glibc libary to extract only crypto part.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxcrypt:4.4.36:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxcrypt@4.4.36"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "537a1900-73d5-42be-b125-e2251ed2c056",
+      "name" : "libxcursor",
+      "version" : "1.2.2",
+      "description" : "Xcursor is a simple library designed to help locate and load cursors. Cursors can be loaded from files or memory. A library of common cursors exists which map to the standard X cursor names. Cursors can exist in several sizes and the library automatically picks the best size.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxcursor:1.2.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxcursor@1.2.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "72dbf002-2363-4720-8c48-f641fa307de8",
+      "name" : "libxcvt",
+      "version" : "0.1.2",
+      "description" : "Library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxcvt:0.1.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxcvt@0.1.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "000b9969-a3c7-4fc0-808e-69c1b22c3b22",
+      "name" : "libxdamage",
+      "version" : "1.1.6",
+      "description" : "'Damage' is a term that describes changes make to pixel contents of windows and pixmaps. Damage accumulates as drawing occurs in the drawable. Each drawing operation 'damages' one or more rectangular areas within the drawable. The rectangles are guaranteed to include the set of pixels modified by each operation, but may include significantly more than just those pixels. The DAMAGE extension allows applications to either receive the raw rectangles as a stream of events, or to have them partially processed within the X server to reduce the amount of data transmitted as well as reduce the processing latency once the repaint operation has started.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxdamage:1.1.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxdamage@1.1.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "47fe8512-87bc-434b-bbb0-1e22c89b5f6a",
+      "name" : "libxdmcp",
+      "version" : "1.1.4",
+      "description" : "The purpose of the X Display Manager Control Protocol (XDMCP) is to provide a uniform mechanism for an autonomous display to request login service from a remote host. An X terminal (screen, keyboard, mouse, processor, network interface) is a prime example of an autonomous display.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxdmcp:1.1.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxdmcp@1.1.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "942ebff9-c71d-4304-84d4-799541f50bf5",
+      "name" : "libxext",
+      "version" : "1.3.6",
+      "description" : "libXext provides an X Window System client interface to several extensions to the X protocol. The supported protocol extensions are DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST. libXext also provides a small set of utility functions to aid authors of client APIs for X protocol extensions.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxext:1.3.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxext@1.3.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "57968496-8022-4897-8561-1f47f6909040",
+      "name" : "libxfixes",
+      "version" : "6.0.1",
+      "description" : "X applications have often needed to work around various shortcomings in the core X window system. This extension is designed to provide the minimal server-side support necessary to eliminate problems caused by these workarounds.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxfixes:6.0.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxfixes@6.0.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "154f6124-b985-4410-a700-33db9e6868c5",
+      "name" : "libxfont",
+      "version" : "2.0.6",
+      "description" : "libXfont2 provides various services for X servers, most notably font selection and rasterisation (through external libraries such as freetype).",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT & BSD-4-Clause & BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxfont:2.0.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxfont@2.0.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fcc48f3a-a577-414b-b9e9-bc54a9eadce9",
+      "name" : "libxfont2",
+      "version" : "2.0.6",
+      "description" : "libXfont2 provides various services for X servers, most notably font selection and rasterisation (through external libraries such as freetype).",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT & BSD-4-Clause & BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxfont2:2.0.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxfont2@2.0.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8bf6e82a-c959-4978-8f0b-80200cc3fe00",
+      "name" : "libxft",
+      "version" : "2.3.8",
+      "description" : "Xft was designed to provide good support for scalable fonts, and to do so efficiently. Unlike the core fonts system, it supports features such as anti-aliasing and sub-pixel rasterisation. Perhaps more importantly, it gives applications full control over the way glyphs are rendered, making fine typesetting and WYSIWIG display possible. Finally, it allows applications to use fonts that are not installed system-wide for displaying documents with embedded fonts. Xft is not compatible with the core fonts system: usage of Xft requires fairly extensive changes to toolkits (user-interface libraries).",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxft:2.3.8:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxft@2.3.8"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c87173eb-5011-4d7e-9a8e-342fbfb70fae",
+      "name" : "libxi",
+      "version" : "1.8.1",
+      "description" : "libxi is an extension to the X11 protocol to support input devices other than the core X keyboard and pointer. It allows client programs to select input from these devices independently from each other and independently from the core devices.",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxi:1.8.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxi@1.8.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6374f495-3417-483a-84c0-a645233552c6",
+      "group" : "xkbcommon",
+      "name" : "libxkbcommon",
+      "version" : "1.6.0",
+      "description" : "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification.",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:xkbcommon:libxkbcommon:1.6.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xkbcommon/libxkbcommon@1.6.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b0245c70-38bc-4092-8e27-9f8317db923a",
+      "name" : "libxkbfile",
+      "version" : "1.1.3",
+      "description" : "libxkbfile provides an interface to read and manipulate description files for XKB, the X11 keyboard configuration extension.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxkbfile:1.1.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxkbfile@1.1.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "95f448af-b70b-45d6-9e90-7a9cd09610f1",
+      "name" : "libxml2",
+      "version" : "2.12.10",
+      "description" : "The XML Parser Library allows for manipulation of XML files. Libxml2 exports Push and Pull type parser interfaces for both XML and HTML. It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD. Libxml2 includes complete XPath, XPointer and Xinclude implementations. It also has a SAX like interface, which is designed to be compatible with Expat.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxml2:2.12.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxml2@2.12.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4c60e3d6-bf17-4496-a0de-38699b5eb484",
+      "name" : "libxrandr",
+      "version" : "1.5.4",
+      "description" : "The X Resize, Rotate and Reflect Extension, called RandR for short, brings the ability to resize, rotate and reflect the root window of a screen. It is based on the X Resize and Rotate Extension as specified in the Proceedings of the 2001 Usenix Technical Conference [RANDR].",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxrandr:1.5.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxrandr@1.5.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cd285851-7506-41c2-993b-b3a2b116a907",
+      "name" : "libxrender",
+      "version" : "0.9.11",
+      "description" : "The X Rendering Extension (Render) introduces digital image composition as the foundation of a new rendering model within the X Window System. Rendering geometric figures is accomplished by client-side tessellation into either triangles or trapezoids. Text is drawn by loading glyphs into the server and rendering sets of them.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxrender:0.9.11:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxrender@0.9.11"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c969cd56-bec9-4436-8a33-11b348843664",
+      "name" : "libxshmfence",
+      "version" : "1.3.2",
+      "description" : "This library offers a CPU-based synchronization primitive compatible with the X SyncFence objects that can be shared between processes using file descriptor passing.",
+      "licenses" : [
+        {
+          "expression" : "HPND"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxshmfence:1.3.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxshmfence@1.3.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f5a36242-ea19-41be-9580-b5b2625e3c48",
+      "name" : "libxslt",
+      "version" : "1.1.43",
+      "description" : "libxslt is the XSLT C parser and toolkit developed for the Gnome project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxslt:1.1.43:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxslt@1.1.43"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1707880b-9e84-44af-a961-a3f0603adc1c",
+      "name" : "libxtst",
+      "version" : "1.2.4",
+      "description" : "This extension is a minimal set of client and server extensions required to completely test the X11 server with no user intervention.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:libxtst:1.2.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/libxtst@1.2.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6aba883b-69db-4d98-97d9-7d70dc223caa",
+      "name" : "linux-firmware",
+      "version" : "20250311",
+      "description" : "Linux firmware is a package distributed alongside the Linux kernel that contains firmware binary blobs necessary for partial or full functionality of certain hardware devices.",
+      "licenses" : [
+        {
+          "expression" : "Firmware-Abilis     & Firmware-adsp_sst     & Firmware-agere     & Firmware-amdgpu     & Firmware-amd-ucode     & Firmware-amlogic_vdec     & Firmware-amphion_vpu     & Firmware-atheros_firmware     & Firmware-atmel     & Firmware-broadcom_bcm43xx     & Firmware-ca0132     & Firmware-cavium     & Firmware-chelsio_firmware     & Firmware-cirrus     & Firmware-cnm     & Firmware-cw1200     & Firmware-cypress     & Firmware-dib0700     & Firmware-e100     & Firmware-ene_firmware     & Firmware-fw_sst_0f28     & Firmware-go7007     & Firmware-hfi1_firmware     & Firmware-i915     & Firmware-ibt_firmware     & Firmware-ice     & Firmware-ice_enhanced     & Firmware-it913x     & Firmware-iwlwifi_firmware     & Firmware-IntcSST2     & Firmware-kaweth     & Firmware-linaro     & Firmware-Lontium     & Firmware-Marvell     & Firmware-mediatek     & Firmware-microchip     & Firmware-moxa     & Firmware-myri10ge_firmware     & Firmware-netronome     & Firmware-nvidia     & Firmware-nxp     & Firmware-nxp_mc_firmware     & Firmware-OLPC     & Firmware-ath9k-htc     & Firmware-phanfw     & Firmware-powervr     & Firmware-qat     & Firmware-qcom     & Firmware-qcom-yamato     & Firmware-qla1280     & Firmware-qla2xxx     & Firmware-qualcommAthos_ar3k     & Firmware-qualcommAthos_ath10k     & Firmware-r8a779x_usb3     & Firmware-radeon     & Firmware-ralink_a_mediatek_company_firmware     & Firmware-ralink-firmware     & Firmware-rockchip     & Firmware-rtlwifi_firmware     & Firmware-imx-sdma_firmware     & Firmware-siano     & Firmware-ti-connectivity     & Firmware-ti-keystone     & Firmware-ueagle-atm4-firmware     & Firmware-via_vt6656     & Firmware-wl1251     & Firmware-xc4000     & Firmware-xc5000     & Firmware-xc5000c     & WHENCE     & GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:linux-firmware:20250311:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/linux-firmware@20250311"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1523dc66-d575-42d5-8ddc-828cb18c76e4",
+      "name" : "linux_kernel",
+      "version" : "6.6.84",
+      "description" : "Linux kernel for Toradex Freescale i.MX based modules.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:linux_kernel:6.6.84:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/linux_kernel@6.6.84"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "720ae50a-83c3-4224-80b0-e6ba9c16a239",
+      "name" : "linux-pam",
+      "version" : "1.5.3",
+      "description" : "Linux-PAM (Pluggable Authentication Modules for Linux), a flexible mechanism for authenticating users",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later | BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:linux-pam:1.5.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/linux-pam@1.5.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6853a274-7da1-42bf-98b6-991f6e273e30",
+      "name" : "log4cplus",
+      "version" : "2.1.1",
+      "description" : "log4cplus is a simple to use C++ logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration. It is modelled after the Java log4j API.",
+      "licenses" : [
+        {
+          "expression" : "Apache-2.0 & BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:log4cplus:2.1.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/log4cplus@2.1.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "38a68842-4dee-4a88-b4a2-5f169f85821a",
+      "name" : "logger",
+      "version" : "v1.1.3",
+      "description" : "Logger",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:logger:v1.1.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/logger@v1.1.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "bde6037e-0ee8-4aa5-a080-c95fa9a364c5",
+      "name" : "logrotate",
+      "version" : "3.21.0",
+      "description" : "The logrotate utility is designed to simplify the administration of log files on a system which generates a lot of log files.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:logrotate:3.21.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/logrotate@3.21.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "67811eb8-c451-4c1d-ad81-e8fb4556a2b8",
+      "group" : "python",
+      "name" : "MarkupSafe",
+      "version" : "2.1.5",
+      "description" : "Implements a XML/HTML/XHTML Markup safe string for Python.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:MarkupSafe:2.1.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/MarkupSafe@2.1.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f7f2ebcc-6809-4374-b007-651c7a496c8a",
+      "name" : "mtdev",
+      "version" : "1.1.6",
+      "description" : "mtdev is a library which transforms all variants of kernel multitouch events to the slotted type B protocol. The events put into mtdev may be from any MT device, specifically type A without contact tracking, type A with contact tracking, or type B with contact tracking",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:mtdev:1.1.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/mtdev@1.1.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0f6e3d4e-d1d6-4403-97a0-950aeb5cc7c3",
+      "name" : "mwifiexconf",
+      "version" : "1.0",
+      "description" : "AP mode: Currently wifi chip fw doesn't support mode changes, this creates multiple interfaces on boot; Power saving disable: Currently IW416 on Verdin AM62 is not stable with power saving enabled, so disable it.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:mwifiexconf:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/mwifiexconf@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1b5d2cd2-10f4-47e7-a0fc-ae30bd505043",
+      "name" : "ncurses",
+      "version" : "6.4",
+      "description" : "SVr4 and XSI-Curses compatible curses library and terminfo tools including tic, infocmp, captoinfo. Supports color, multiple highlights, forms-drawing characters, and automatic recognition of keypad and function-key sequences. Extensions include resizable windows and mouse support on both xterm and Linux console using the gpm library.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:ncurses:6.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/ncurses@6.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0e450e7f-3206-4547-a251-3613ecf6b458",
+      "name" : "netbase",
+      "version" : "6.4",
+      "description" : "This package provides the necessary infrastructure for basic TCP/IP based networking",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:netbase:6.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/netbase@6.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "56f1c142-2ddc-4fff-bb31-99225aa20758",
+      "name" : "netscape_portable_runtime",
+      "version" : "4.35",
+      "description" : "Netscape Portable Runtime Library.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only | MPL-2.0 | LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:netscape_portable_runtime:4.35:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/netscape_portable_runtime@4.35"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "18d67763-4d7b-4398-ae5e-cd0b849e7764",
+      "name" : "network_security_services",
+      "version" : "3.98",
+      "description" : "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
+      "licenses" : [
+        {
+          "expression" : "(MPL-2.0 & MIT) | (MPL-2.0 & GPL-2.0-or-later & MIT) | (MPL-2.0 & LGPL-2.1-or-later & MIT)"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:network_security_services:3.98:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/network_security_services@3.98"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5b101bb8-020e-4721-bb09-41873aac0b2a",
+      "name" : "nodejs",
+      "version" : "20.18.2",
+      "description" : "nodeJS Evented I/O for V8 JavaScript",
+      "licenses" : [
+        {
+          "expression" : "MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:nodejs:20.18.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/nodejs@20.18.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7fab504b-6c56-48bc-9ece-a2a45c15b484",
+      "name" : "node.js",
+      "version" : "20.18.2",
+      "description" : "nodeJS Evented I/O for V8 JavaScript",
+      "licenses" : [
+        {
+          "expression" : "MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:node.js:20.18.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/node.js@20.18.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b5c58569-6134-45ed-a005-a769c2c47b71",
+      "name" : "openssh",
+      "version" : "9.6p1",
+      "description" : "Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.",
+      "licenses" : [
+        {
+          "expression" : "BSD-2-Clause & BSD-3-Clause & ISC & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:openssh:9.6p1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/openssh@9.6p1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c1eb2813-f836-426a-973f-7acb0b9ea90b",
+      "group" : "openssl",
+      "name" : "openssl",
+      "version" : "3.2.4",
+      "description" : "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+      "licenses" : [
+        {
+          "expression" : "Apache-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:openssl:openssl:3.2.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/openssl/openssl@3.2.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c936cfdf-a654-4a4f-8cd8-f3d0fa41b4d6",
+      "name" : "opkg-utils",
+      "version" : "0.6.3",
+      "description" : "Additional utilities for the opkg package manager.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:opkg-utils:0.6.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/opkg-utils@0.6.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f969e68f-d624-456d-9661-8d121ef9a856",
+      "name" : "os-release",
+      "version" : "1.0",
+      "description" : "The /usr/lib/os-release file contains operating system identification data.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:os-release:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/os-release@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6823868f-2ff6-441d-8d8f-1b5939dd0678",
+      "name" : "pango",
+      "version" : "1.52.1",
+      "description" : "Pango is a library for laying out and rendering of text, with an emphasis on internationalization. Pango can be used anywhere that text layout is needed, though most of the work on Pango so far has been done in the context of the GTK+ widget toolkit. Pango forms the core of text and font handling for GTK+-2.x.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:pango:1.52.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/pango@1.52.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fb5e6aa9-7f8b-43b2-bf18-5b1c0f9147ef",
+      "name" : "pcre2",
+      "version" : "10.43",
+      "description" : "There are two major versions of the PCRE library. The newest version is PCRE2, which is a re-working of the original PCRE library to provide an entirely new API. The original, very widely deployed PCRE library's API and feature are stable, future releases will be for bugfixes only. All new future features will be to PCRE2, not the original PCRE 8.x series.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:pcre2:10.43:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/pcre2@10.43"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ed5539bf-ba36-402c-8132-b38b6eee7f19",
+      "name" : "pixman",
+      "version" : "0.42.2",
+      "description" : "Pixman provides a library for manipulating pixel regions -- a set of Y-X banded rectangles, image compositing using the Porter/Duff model and implicit mask generation for geometric primitives including trapezoids, triangles, and rectangles.",
+      "licenses" : [
+        {
+          "expression" : "MIT & PD"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:pixman:0.42.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/pixman@0.42.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f0fe2777-c9a8-461e-83bf-3f789a2ac844",
+      "group" : "python",
+      "name" : "ply",
+      "version" : "3.11",
+      "description" : "Python ply: PLY is yet another implementation of lex and yacc for Python",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:ply:3.11:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/ply@3.11"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "601e0922-e8b3-4448-9345-7574563f22db",
+      "name" : "pm-utils",
+      "version" : "1.4.1",
+      "description" : "Simple shell command line tools to suspend and hibernate.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:pm-utils:1.4.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/pm-utils@1.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1f2ee1fb-006b-4494-b0dd-2f3cde9298d2",
+      "name" : "poco",
+      "version" : "1.12.5p2",
+      "description" : "Modern, powerful open source C++ class libraries and frameworks for building network- and internet-based applications that run on desktop, server, mobile and embedded systems.",
+      "licenses" : [
+        {
+          "expression" : "BSL-1.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:poco:1.12.5p2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/poco@1.12.5p2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9f043271-50b7-43c4-9de7-7f820dfa66fa",
+      "name" : "popt",
+      "version" : "1.19",
+      "description" : "Popt is a C library for parsing command line parameters. Popt was heavily influenced by the getopt() and getopt_long() functions, but it improves on them by allowing more powerful argument expansion. Popt can parse arbitrary argv[] style arrays and automatically set variables based on command line arguments.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:popt:1.19:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/popt@1.19"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a3419307-5e6f-4a06-8cf7-1ff72e8656ae",
+      "group" : "python",
+      "name" : "protobuf",
+      "version" : "3.20.3",
+      "description" : "Protocol Buffers are language-neutral, platform-neutral extensible mechanisms for serializing structured data..",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:protobuf:3.20.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/protobuf@3.20.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "21a721d6-714c-4bec-b1c9-638fbb26eaab",
+      "name" : "pwgen",
+      "version" : "2.08",
+      "description" : "Password Generator",
+      "licenses" : [
+        {
+          "expression" : "GPLv2"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:pwgen:2.08:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/pwgen@2.08"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f0a3ea1f-162a-4c27-a69b-f1ccb2a0d044",
+      "group" : "python",
+      "name" : "pycparser",
+      "version" : "2.21",
+      "description" : "Parser of the C language, written in pure Python.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:pycparser:2.21:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/pycparser@2.21"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9505a66b-21f2-4574-9b85-e41f9944fbd0",
+      "group" : "python",
+      "name" : "pycryptodomex",
+      "version" : "3.20.0",
+      "description" : "PyCryptodome is a self-contained Python package of low-level cryptographic primitives.",
+      "licenses" : [
+        {
+          "expression" : "PD & BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:pycryptodomex:3.20.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/pycryptodomex@3.20.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8f34d5fa-ea35-4aa2-ba23-241e6b6b1c45",
+      "name" : "python",
+      "version" : "3.12.11",
+      "description" : "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+      "licenses" : [
+        {
+          "expression" : "PSF-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:python:3.12.11:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python@3.12.11"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "83b4c9c9-8cce-4973-8574-1eb49f5be8d7",
+      "name" : "python3-setuptools",
+      "version" : "69.1.1",
+      "description" : "Download, build, install, upgrade, and uninstall Python packages.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:python3-setuptools:69.1.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python3-setuptools@69.1.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "365bd02c-5ab2-4a55-a24b-09986ff3c221",
+      "group" : "python",
+      "name" : "python-json-logger",
+      "version" : "2.0.7",
+      "description" : "This library is provided to allow standard python logging to output log data as json objects. With JSON we can make our logs more readable by machines and we can stop writing custom parsers for syslog type records..",
+      "licenses" : [
+        {
+          "expression" : "BSD-2-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:python-json-logger:2.0.7:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/python-json-logger@2.0.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f790232f-c400-4857-a9ef-bc6ad68fdbaa",
+      "group" : "python",
+      "name" : "pyzipper",
+      "version" : "0.3.6",
+      "description" : "A replacement for Python's zipfile that can read and write AES encrypted zip files. Forked from Python 3.7's zipfile module, it features the same zipfile API from that time (most notably, lacking support for pathlib-compatible wrappers that were introduced in Python 3.8).",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:pyzipper:0.3.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/pyzipper@0.3.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0f6504cb-4a50-4c1c-83c9-2a6718b55767",
+      "name" : "qiaidentity",
+      "version" : "3.0.0.63",
+      "description" : "It installs QIAIdentity package",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qiaidentity:3.0.0.63:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qiaidentity@3.0.0.63"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "981ede22-b72f-4f49-a34d-3ccff873017a",
+      "name" : "qsboost-servicetool",
+      "version" : "git",
+      "description" : "QSBoost Service Tool",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qsboost-servicetool:git:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qsboost-servicetool@git"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "839a5db5-f44a-4ff9-96ba-c2c43cb14661",
+      "name" : "qsboost-servicetool-chromium",
+      "version" : "git",
+      "description" : "Builds and installs the Vue/Node.js service tool frontend, starts the Node server and Chromium kiosk",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qsboost-servicetool-chromium:git:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qsboost-servicetool-chromium@git"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8b28bead-11dd-4381-bc31-45f9fee69e67",
+      "name" : "qsboost-spcu",
+      "version" : "git",
+      "description" : "Support Package Collection Unit",
+      "licenses" : [
+        {
+          "expression" : "CLOSED"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qsboost-spcu:git:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qsboost-spcu@git"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6f07ad27-d07e-471b-844e-4341b9f400f6",
+      "name" : "qt",
+      "version" : "5.15.13",
+      "description" : "qtbase version 5.15.13+git-r0.",
+      "licenses" : [
+        {
+          "expression" : "GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qt:5.15.13:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qt@5.15.13"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fa04ff8c-0489-4bd8-b3ae-3635f461e3e7",
+      "name" : "qtbase",
+      "version" : "5.15.13",
+      "description" : "qtbase version 5.15.13+git-r0.",
+      "licenses" : [
+        {
+          "expression" : "GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:qtbase:5.15.13:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/qtbase@5.15.13"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "13ba8f9e-bc39-4bc6-9ebd-a6cb56e17f9e",
+      "name" : "quazip",
+      "version" : "0.7.3",
+      "description" : "Qt/C++ wrapper for ZIP/UNZIP package.",
+      "licenses" : [
+        {
+          "expression" : "LGPL-2.1-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:quazip:0.7.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/quazip@0.7.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9478fda1-14be-4a16-9e32-d607b9570fdb",
+      "name" : "run-postinsts",
+      "version" : "1.0",
+      "description" : "Runs postinstall scripts on first boot of the target device",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:run-postinsts:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/run-postinsts@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "db05e451-b79f-4d81-8cb7-4b11f2dcc2c7",
+      "name" : "seatd",
+      "version" : "0.8.0",
+      "description" : "Seat management takes care of mediating access to shared devices (graphics, input), without requiring the applications needing access to be root.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:seatd:0.8.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/seatd@0.8.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5ad11a53-790e-4f92-9b31-2990e0f07aa4",
+      "name" : "set-hostname",
+      "version" : "1.1",
+      "description" : "set-hostname version 1.1-r0.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:set-hostname:1.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/set-hostname@1.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "58e942e5-55d7-4821-ba2f-c1cf1f4c49fe",
+      "group" : "python",
+      "name" : "setuptools",
+      "version" : "69.1.1",
+      "description" : "Download, build, install, upgrade, and uninstall Python packages.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:setuptools:69.1.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/setuptools@69.1.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "38e26eb7-a318-476a-832f-05c2506de9b9",
+      "name" : "shadow",
+      "version" : "4.14.2",
+      "description" : "Tools to change and administer password and group data",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:shadow:4.14.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/shadow@4.14.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5b611e37-c886-4b9b-a220-8849d0eae810",
+      "name" : "shadow-securetty",
+      "version" : "4.6",
+      "description" : "Provider of the machine specific securetty file.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:shadow-securetty:4.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/shadow-securetty@4.6"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b52f2281-4207-4835-b7d3-d284ec505ea7",
+      "name" : "shared-mime-info",
+      "version" : "2.4",
+      "description" : "The shared-mime-info package contains the core database of common types.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:shared-mime-info:2.4:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/shared-mime-info@2.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c01baf7a-789b-40c3-a724-ae8e9bf0272b",
+      "group" : "python",
+      "name" : "six",
+      "version" : "1.16.0",
+      "description" : "Python 2 and 3 compatibility library.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:python:six:1.16.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/python/six@1.16.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e490927b-8f90-48e7-a880-c47f1f582888",
+      "name" : "sqlite",
+      "version" : "3.45.3",
+      "description" : "A library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day",
+      "licenses" : [
+        {
+          "expression" : "PD"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:sqlite:3.45.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/sqlite@3.45.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "159fbdb5-bf11-457f-b12b-82c53e60c5ca",
+      "name" : "systemd",
+      "version" : "255.21",
+      "description" : "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-only & LGPL-2.1-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:systemd:255.21:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/systemd@255.21"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6d84b79d-3fd4-4494-8c59-94e1103e6c67",
+      "name" : "systemd-compat-units",
+      "version" : "1.0",
+      "description" : "Enhances systemd compatilibity with existing SysVinit scripts.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:systemd-compat-units:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/systemd-compat-units@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "be6cc73e-7def-4be6-8671-5a5d1f61cd89",
+      "name" : "systemd-conf",
+      "version" : "1.0",
+      "description" : "Systemd may require slightly different configuration for different machines. For example, qemu machines require a longer DefaultTimeoutStartSec setting.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:systemd-conf:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/systemd-conf@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c8524f25-0c58-4aac-9f05-f760b36de479",
+      "name" : "udev-rules-imx",
+      "version" : "1.0",
+      "description" : "udev rules for Freescale i.MX SOCs",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:udev-rules-imx:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/udev-rules-imx@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b395852a-90cc-4cd6-a1b7-c7d3f3283381",
+      "name" : "update-rc.d",
+      "version" : "0.8",
+      "description" : "update-rc.d is a utility that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:update-rc.d:0.8:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/update-rc.d@0.8"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f2810f4e-30cd-4b90-8047-4f68f6fc63ed",
+      "name" : "upower",
+      "version" : "0.99.17",
+      "description" : "UPower is an abstraction for enumerating power devices, listening to device events and querying history and statistics.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:upower:0.99.17:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/upower@0.99.17"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1189611d-36db-4556-85f8-6577ddd74cf1",
+      "name" : "usbutils",
+      "version" : "017",
+      "description" : "Contains the lsusb utility for inspecting the devices connected to the USB bus.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later & (GPL-2.0-only | GPL-3.0-only)"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:usbutils:017:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/usbutils@017"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7ef929d2-3dce-4bdc-98b6-6a30c3cefaf1",
+      "name" : "util-linux",
+      "version" : "2.39.3",
+      "description" : "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems. Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
+      "licenses" : [
+        {
+          "expression" : "GPL-1.0-or-later & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:util-linux:2.39.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/util-linux@2.39.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "994d98ad-5dec-4821-8309-3b24f10fab4b",
+      "name" : "util-linux-libuuid",
+      "version" : "2.39.3",
+      "description" : "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems. Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:util-linux-libuuid:2.39.3:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/util-linux-libuuid@2.39.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "36b30356-79a3-40b0-a2d7-c3afef548d8c",
+      "name" : "volatile-binds",
+      "version" : "1.0",
+      "description" : "Volatile bind mount setup and configuration for read-only-rootfs",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:volatile-binds:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/volatile-binds@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fa582e11-508c-4741-bce8-6ae3d81e5908",
+      "name" : "wayland",
+      "version" : "1.22.0",
+      "description" : "Wayland is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an X application, or a wayland client itself. The clients can be traditional applications, X servers (rootless or fullscreen) or other display servers.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:wayland:1.22.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/wayland@1.22.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "eb49ea09-3b85-4669-a7b4-93f2d3a93a3a",
+      "name" : "wayland-utils",
+      "version" : "1.2.0",
+      "description" : "Wayland-utils contains (for now) wayland-info, a utility for displaying information about the Wayland protocols supported by a Wayland compositor. wayland-info is basically a standalone version of weston-info as found in weston repository.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:wayland-utils:1.2.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/wayland-utils@1.2.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b032c69f-aee2-473f-b97f-acbe0551cdb6",
+      "name" : "weston",
+      "version" : "12.0.4.imx",
+      "description" : "Weston is the reference implementation of a Wayland compositor",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:weston:12.0.4.imx:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/weston@12.0.4.imx"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b2dbe4b5-3e07-422d-9077-b8886ddba856",
+      "name" : "weston-init",
+      "version" : "1.0",
+      "description" : "Startup script and systemd unit file for the Weston Wayland compositor.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:weston-init:1.0:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/weston-init@1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7c96d394-72e7-4751-8a0c-6c8438e0bd14",
+      "name" : "xcb-util",
+      "version" : "0.4.1",
+      "description" : "The xcb-util module provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xcb-util:0.4.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xcb-util@0.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "514fc140-e5e0-4beb-96a3-5745779cbc8e",
+      "name" : "xcb-util-image",
+      "version" : "0.4.1",
+      "description" : "The xcb-util module provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xcb-util-image:0.4.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xcb-util-image@0.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5a0f4b85-1fa9-43ca-8df0-3d16d21870a7",
+      "name" : "xcb-util-keysyms",
+      "version" : "0.4.1",
+      "description" : "The xcb-util module provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xcb-util-keysyms:0.4.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xcb-util-keysyms@0.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "69f93833-3d4e-48a5-a5d6-17ef8e36b16a",
+      "name" : "xcb-util-renderutil",
+      "version" : "0.3.10",
+      "description" : "The xcb-util module provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xcb-util-renderutil:0.3.10:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xcb-util-renderutil@0.3.10"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "dc523125-a627-4787-8910-359052d5eaa4",
+      "name" : "xcb-util-wm",
+      "version" : "0.4.2",
+      "description" : "The xcb-util module provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xcb-util-wm:0.4.2:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xcb-util-wm@0.4.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f15c96ab-2d81-44ff-b0bb-0bedd98e9802",
+      "name" : "xerces-c",
+      "version" : "3.2.5",
+      "description" : "Xerces-C++ makes it easy to give your application the ability to read and write XML data. A shared library is provided for parsing, generating, manipulating, and validating XML documents using the DOM, SAX, and SAX2 APIs.",
+      "licenses" : [
+        {
+          "expression" : "Apache-2.0"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xerces-c:3.2.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xerces-c@3.2.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "511fa2ca-1dfb-4a07-8508-a0087511aa29",
+      "name" : "xkbcomp",
+      "version" : "1.4.7",
+      "description" : "The xkbcomp keymap compiler converts a description of an XKB keymap into one of several output formats. The most common use for xkbcomp is to create a compiled keymap file (.xkm extension) which can be read directly by XKB-capable X servers or utilities.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xkbcomp:1.4.7:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xkbcomp@1.4.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ef01fc14-28a3-4c5a-b920-682ea86d977a",
+      "name" : "xkeyboard-config",
+      "version" : "2.41",
+      "description" : "The non-arch keyboard configuration database for X Window. The goal is to provide the consistent, well-structured, frequently released open source of X keyboard configuration data for X Window System implementations. The project is targeted to XKB-based systems.",
+      "licenses" : [
+        {
+          "expression" : "MIT & MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xkeyboard-config:2.41:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xkeyboard-config@2.41"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "18126252-076a-4c29-8f22-a6580327a904",
+      "name" : "xwayland",
+      "version" : "23.2.5.imx",
+      "description" : "XWayland is an X Server running as a Wayland client, and thus is capable of displaying native X11 client applications in a Wayland compositor environment. The goal of XWayland is to facilitate the transition from X Window System to Wayland environments, providing a way to run unported applications in the meantime.",
+      "licenses" : [
+        {
+          "expression" : "MIT"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xwayland:23.2.5.imx:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xwayland@23.2.5.imx"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fc5caccd-7662-400a-80f4-992e80a0359b",
+      "name" : "xz",
+      "version" : "5.4.7",
+      "description" : "XZ Utils is free general-purpose data compression software with a high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
+      "licenses" : [
+        {
+          "expression" : "GPL-2.0-or-later & GPL-3.0-with-autoconf-exception & LGPL-2.1-or-later & PD"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:xz:5.4.7:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/xz@5.4.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "458cdf55-f07e-4845-ad8a-eb8c97a8f56f",
+      "name" : "zlib",
+      "version" : "1.3.1",
+      "description" : "Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.",
+      "licenses" : [
+        {
+          "expression" : "Zlib"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:zlib:1.3.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/zlib@1.3.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "497679b5-fc8e-43a6-9f32-ba6071da2678",
+      "name" : "zstandard",
+      "version" : "1.5.5",
+      "description" : "Zstandard is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause | GPL-2.0-only"
+        }
+      ],
+      "cpe" : "cpe:2.3:*:*:zstandard:1.5.5:*:*:*:*:*:*:*",
+      "purl" : "pkg:generic/zstandard@1.5.5"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "55332328-41b1-4f27-998a-bd1f8fa3662a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "72af319b-5f69-4f6f-b9b9-06943246feef",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "66f6ab00-1899-473c-9e28-4d14d2b37092",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "31191084-2644-47d8-a14d-20475cef0670",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "84e884f1-b5da-4002-b7fa-ba687975e2b6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "05995f29-2e7e-4d50-93ad-77bf0c69d53d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3df84229-84e8-4f8a-b4d8-1ce5c90cf87a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f4b120bc-e3b8-4fc5-a4a3-11040cb1ab4c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c6884e70-53cb-4e07-be01-49e247d137cf",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c4098460-cfd1-41dd-93b2-3f62aa716d73",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9bbf1c0b-e468-4802-9008-d6175397223c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "276dc6e1-75a2-439b-a37e-828e21c2bc7f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "60c56fb2-2573-4520-ba2e-324032027a72",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e7fbf6ac-6850-4a90-9bcd-323a7991fd83",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "81397df0-0c7f-410b-8dce-16f42ad716ca",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9161aa00-81c1-4e13-b6d8-bcadbe590ddf",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "19b82c55-abd6-44f6-b324-a6cc1b2468c9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "eb6cbe93-03c5-4d0c-aae9-267bb7d22ef8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e9e7da73-f21e-427c-8e05-27bdc30adb17",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "68f56c17-427f-4d5d-af4d-9e0fd2399b49",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7aa7201e-dbe8-41d8-a9aa-ffe402b12303",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6ba17d3a-6b3b-42cb-917e-cba7f973706d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a26119b2-cecf-4295-9632-34d05867ce07",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c9ec5ca6-81ad-4b6d-adfd-d8a8692362de",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "042d77ce-3792-4973-824f-6fe270241943",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9573be52-d043-4793-bfd4-37bf4abaaeea",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c5142c5b-82b1-4483-9244-e6c57faf1878",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c07689c6-d9f6-4e3d-9eba-71136a184b54",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f84d6a07-a0ac-481a-87db-fc0acd79d3c1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "68b0599f-4d12-4148-9091-ed768d517388",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2965d381-5fdd-46e8-93d3-81bd0a64a3ef",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "68b6a459-dc13-4b53-8c64-9409461b481f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "146f7aec-9cc5-4f9a-a5c5-65074cb01a5c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "95c0726d-d623-49a8-aeb2-27557280c005",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b1e56364-0c12-42db-917f-563e22ce5c77",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d3f74f8b-828d-4eab-9ec9-cb8f911ac4c3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ab4785fa-4c6c-4226-a015-513af3099b50",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "93cdf8e6-4ffd-4131-bf37-f6b111930aa1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f2e69171-f748-4e40-843a-a04ad6d6a630",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e53fb7f5-3712-4f61-8ab2-cf0058d75ac0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "391c3807-3403-4a42-ad44-9721f2edfe43",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "34fadae5-cec4-43e4-b688-0f4b7f0ee80e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3b4943d5-9464-4603-be93-d09418af822f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6f335f43-eac7-46cd-a393-6b80f8f806f9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "301841bd-c2e7-4c96-8d53-d500af9780b4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8c1ff374-8265-4011-9b2f-ee68a7abcf9e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "eebd35d6-f729-43cb-a23b-97267af2bd97",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cad86279-1f4a-4f84-89ba-00e480dd884c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ecab4e9e-f571-48cc-8f40-beebce8cd024",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "179d9cc3-c1d1-4c8b-bfd7-98db5170dec9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e00408d9-8c04-47b0-bbd6-736074d125ad",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c35a3901-8ba4-4c9b-9881-3c5ad87bd5df",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "88cb7850-d2df-47fa-bd80-5d86cb6e10b6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e70330f6-8487-4f2e-aac4-c7e5356dffe4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6e03f177-d363-446f-b0da-c59f4bc3b277",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b688d548-9a84-4a63-92b2-400c8b7ffaa6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "25ea65ad-74a6-4d39-9693-02f89dc92dc4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e59c454d-7aed-4fb3-81e9-f9018afa65ad",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9e474431-71d4-411a-b751-c3482028b2b1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "626cdd5d-e8c2-4042-b696-15da54943474",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a50acb63-e799-41b0-8155-3078355fdee6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a407c0d2-c8d3-4c73-a93c-9539dbb97b6e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ee86dab2-e76c-422c-b617-ebf60ae32065",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "797ae1f7-8aa3-4ff4-9913-44a33c0e6f8c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ce6df0c5-9be5-4380-9918-5d2078c6be7b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "31c8dc4b-5503-43e2-9951-5d9f2d156266",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1fb806df-5728-4bc1-a7b8-5ad404fe2694",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5e88315a-9543-4c95-8bc9-189833fdbfd3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2c850e82-a1b3-4ebc-bc92-7d25d861990d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9da271a7-8714-42c7-9758-5c5fc3e5b639",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "81d63d8a-c181-49f4-bb26-99cf07ee64f3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e5868a0f-7bb7-4a76-8e20-27470c549629",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "952c08dc-2928-470f-baf5-8ce3871de821",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "97598738-91f7-405c-8ee7-5dc6536a9761",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8c814052-1632-436e-b976-051951ffafb4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5b117b11-cd1b-4591-9b6f-2dc6a41fa946",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6255e402-f9cc-46a5-8bd1-3c18b1b39a4a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e2797fdc-4075-48df-9aeb-e7d6bdbd0d7d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c5a130d0-73fd-401d-a94a-bcf28e86cb91",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "10ea11c0-0c77-4516-818b-0f60e8debc15",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "003ce8be-5545-4501-a02e-8566a704f9f3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "70bf18a5-6d2c-426e-acd8-6c39b95fdaa5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b0e2bc3a-631b-4e8c-bbc2-0b0a9369a282",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1ea0ac4a-4d56-457a-8dbd-2aad75f95a05",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e4a4adc2-0bb6-4569-8e0e-2ec7836b8f8c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ba914ef5-9984-4e62-bc50-32155fb20163",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6c3182f4-771c-43ef-90df-6f3b0817f465",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "537a1900-73d5-42be-b125-e2251ed2c056",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "72dbf002-2363-4720-8c48-f641fa307de8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "000b9969-a3c7-4fc0-808e-69c1b22c3b22",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "47fe8512-87bc-434b-bbb0-1e22c89b5f6a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "942ebff9-c71d-4304-84d4-799541f50bf5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "57968496-8022-4897-8561-1f47f6909040",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "154f6124-b985-4410-a700-33db9e6868c5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fcc48f3a-a577-414b-b9e9-bc54a9eadce9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8bf6e82a-c959-4978-8f0b-80200cc3fe00",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c87173eb-5011-4d7e-9a8e-342fbfb70fae",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6374f495-3417-483a-84c0-a645233552c6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b0245c70-38bc-4092-8e27-9f8317db923a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "95f448af-b70b-45d6-9e90-7a9cd09610f1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4c60e3d6-bf17-4496-a0de-38699b5eb484",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cd285851-7506-41c2-993b-b3a2b116a907",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c969cd56-bec9-4436-8a33-11b348843664",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f5a36242-ea19-41be-9580-b5b2625e3c48",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1707880b-9e84-44af-a961-a3f0603adc1c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6aba883b-69db-4d98-97d9-7d70dc223caa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1523dc66-d575-42d5-8ddc-828cb18c76e4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "720ae50a-83c3-4224-80b0-e6ba9c16a239",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6853a274-7da1-42bf-98b6-991f6e273e30",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "38a68842-4dee-4a88-b4a2-5f169f85821a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bde6037e-0ee8-4aa5-a080-c95fa9a364c5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "67811eb8-c451-4c1d-ad81-e8fb4556a2b8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f7f2ebcc-6809-4374-b007-651c7a496c8a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0f6e3d4e-d1d6-4403-97a0-950aeb5cc7c3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1b5d2cd2-10f4-47e7-a0fc-ae30bd505043",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0e450e7f-3206-4547-a251-3613ecf6b458",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "56f1c142-2ddc-4fff-bb31-99225aa20758",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "18d67763-4d7b-4398-ae5e-cd0b849e7764",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5b101bb8-020e-4721-bb09-41873aac0b2a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7fab504b-6c56-48bc-9ece-a2a45c15b484",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b5c58569-6134-45ed-a005-a769c2c47b71",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c1eb2813-f836-426a-973f-7acb0b9ea90b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c936cfdf-a654-4a4f-8cd8-f3d0fa41b4d6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f969e68f-d624-456d-9661-8d121ef9a856",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6823868f-2ff6-441d-8d8f-1b5939dd0678",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fb5e6aa9-7f8b-43b2-bf18-5b1c0f9147ef",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ed5539bf-ba36-402c-8132-b38b6eee7f19",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f0fe2777-c9a8-461e-83bf-3f789a2ac844",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "601e0922-e8b3-4448-9345-7574563f22db",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1f2ee1fb-006b-4494-b0dd-2f3cde9298d2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9f043271-50b7-43c4-9de7-7f820dfa66fa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a3419307-5e6f-4a06-8cf7-1ff72e8656ae",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "21a721d6-714c-4bec-b1c9-638fbb26eaab",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f0a3ea1f-162a-4c27-a69b-f1ccb2a0d044",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9505a66b-21f2-4574-9b85-e41f9944fbd0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8f34d5fa-ea35-4aa2-ba23-241e6b6b1c45",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "83b4c9c9-8cce-4973-8574-1eb49f5be8d7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "365bd02c-5ab2-4a55-a24b-09986ff3c221",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f790232f-c400-4857-a9ef-bc6ad68fdbaa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0f6504cb-4a50-4c1c-83c9-2a6718b55767",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "981ede22-b72f-4f49-a34d-3ccff873017a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "839a5db5-f44a-4ff9-96ba-c2c43cb14661",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8b28bead-11dd-4381-bc31-45f9fee69e67",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6f07ad27-d07e-471b-844e-4341b9f400f6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fa04ff8c-0489-4bd8-b3ae-3635f461e3e7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "13ba8f9e-bc39-4bc6-9ebd-a6cb56e17f9e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9478fda1-14be-4a16-9e32-d607b9570fdb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "db05e451-b79f-4d81-8cb7-4b11f2dcc2c7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5ad11a53-790e-4f92-9b31-2990e0f07aa4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "58e942e5-55d7-4821-ba2f-c1cf1f4c49fe",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "38e26eb7-a318-476a-832f-05c2506de9b9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5b611e37-c886-4b9b-a220-8849d0eae810",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b52f2281-4207-4835-b7d3-d284ec505ea7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c01baf7a-789b-40c3-a724-ae8e9bf0272b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e490927b-8f90-48e7-a880-c47f1f582888",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "159fbdb5-bf11-457f-b12b-82c53e60c5ca",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6d84b79d-3fd4-4494-8c59-94e1103e6c67",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "be6cc73e-7def-4be6-8671-5a5d1f61cd89",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c8524f25-0c58-4aac-9f05-f760b36de479",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b395852a-90cc-4cd6-a1b7-c7d3f3283381",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f2810f4e-30cd-4b90-8047-4f68f6fc63ed",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1189611d-36db-4556-85f8-6577ddd74cf1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7ef929d2-3dce-4bdc-98b6-6a30c3cefaf1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "994d98ad-5dec-4821-8309-3b24f10fab4b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "36b30356-79a3-40b0-a2d7-c3afef548d8c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fa582e11-508c-4741-bce8-6ae3d81e5908",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "eb49ea09-3b85-4669-a7b4-93f2d3a93a3a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b032c69f-aee2-473f-b97f-acbe0551cdb6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b2dbe4b5-3e07-422d-9077-b8886ddba856",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7c96d394-72e7-4751-8a0c-6c8438e0bd14",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "514fc140-e5e0-4beb-96a3-5745779cbc8e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5a0f4b85-1fa9-43ca-8df0-3d16d21870a7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "69f93833-3d4e-48a5-a5d6-17ef8e36b16a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "dc523125-a627-4787-8910-359052d5eaa4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f15c96ab-2d81-44ff-b0bb-0bedd98e9802",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "511fa2ca-1dfb-4a07-8508-a0087511aa29",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ef01fc14-28a3-4c5a-b920-682ea86d977a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "18126252-076a-4c29-8f22-a6580327a904",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fc5caccd-7662-400a-80f4-992e80a0359b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "458cdf55-f07e-4845-ad8a-eb8c97a8f56f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "497679b5-fc8e-43a6-9f32-ba6071da2678",
+      "dependsOn" : [ ]
+    }
+  ]
+}
